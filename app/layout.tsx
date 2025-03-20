@@ -6,16 +6,19 @@ import { ActiveThemeProvider } from "@/components/active-theme"
 import { cookies } from "next/headers";
 import { cn } from "@/lib/utils";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const META_THEME_COLORS = {
   light: "#ffffff",
   dark: "#09090b",
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
