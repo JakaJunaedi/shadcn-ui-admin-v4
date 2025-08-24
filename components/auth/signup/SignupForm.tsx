@@ -262,6 +262,7 @@ const SignupForm = () => {
 
                                 {/* Login Button */}
                                 <Button
+                                    onClick={handleSubmit}
                                     type="submit"
                                     className="w-full h-12 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-medium rounded-xl transition-all duration-300 transform hover:scale-[1.02] shadow-lg hover:shadow-xl"
                                     disabled={isLoading}
