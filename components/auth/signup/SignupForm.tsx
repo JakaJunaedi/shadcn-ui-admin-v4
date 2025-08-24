@@ -36,12 +36,14 @@ const SignupForm = () => {
         setShowPassword(prev => !prev);
     };
 
+    {/**
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsLoading(true);
         // Simulate API call
         setTimeout(() => setIsLoading(false), 2000);
     };
+     */}
 
     const handleGoogleLogin = async () => {
         setIsGoogleLoading(true);
